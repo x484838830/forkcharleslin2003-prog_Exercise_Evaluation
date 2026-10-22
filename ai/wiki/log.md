@@ -20,3 +20,8 @@
 - Updated: frontend/dashboard.md (orgTitle() vs displayName(), the PDF filename cost, Status block for the old title expression)
 - Updated: frontend/dashboard-report-view.md (R0 cover line uses orgTitle())
 - Updated: operations/branches-and-environments.md (branch tips on 2026-10-22, table of upstream merges into the fork)
+
+## [2026-10-22] ingest | Branches, environments and this fork
+- Disposition: Update
+- Raw: raw/owner-decisions/2026-10-22-checkout-moved-to-github-folder.md
+- Updated: operations/branches-and-environments.md (location of the local checkout)

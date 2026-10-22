@@ -4,7 +4,7 @@
 > Repo: [CLAUDE.md](../../../CLAUDE.md)
 > Synced: b1a765f
 > Anchors: Branch state; Branch policy
-> Raw: [Upstream branch state](../../raw/repo-observations/2026-10-20-upstream-branch-state.md); [Upstream branch state, 2026-10-22](../../raw/repo-observations/2026-10-22-upstream-branch-state.md); [Fork setup and the AI workspace](../../raw/owner-decisions/2026-10-20-fork-and-ai-workspace.md)
+> Raw: [Upstream branch state](../../raw/repo-observations/2026-10-20-upstream-branch-state.md); [Upstream branch state, 2026-10-22](../../raw/repo-observations/2026-10-22-upstream-branch-state.md); [Checkout moved to the GitHub folder](../../raw/owner-decisions/2026-10-22-checkout-moved-to-github-folder.md); [Fork setup and the AI workspace](../../raw/owner-decisions/2026-10-20-fork-and-ai-workspace.md)
 > Updated: 2026-10-22
 
 ## Overview
@@ -61,6 +61,7 @@ The Vercel setting that picks the branch is under Settings → Environments → 
 | `origin` | `x484838830/forkcharleslin2003-prog_Exercise_Evaluation` | yes. GitHub Desktop pushes here. |
 | `upstream` | `charleslin2003-prog/Exercise_Evaluation` | blocked. The push URL is a dummy value. |
 
+- The local checkout is in the folder `GitHub` on the maintainer's Desktop, next to the maintainer's other repositories. It moved there on 2026-10-22.
 - The fork has all four upstream branches.
 - The fork is not connected to Vercel, so a push to the fork deploys nothing.
 - The fork is public. A fork of a public repository cannot be made private.
