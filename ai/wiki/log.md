@@ -32,3 +32,9 @@
 - Updated: SCHEMA.md (new section 9 Paths; 6.4 step 2), scripts/wiki.py (lint reports absolute paths)
 - Updated: operations/branches-and-environments.md (checkout folder differs per computer)
 - Raw edit under SCHEMA.md §9 rule 7: replaced 3 absolute paths in raw/owner-decisions/2026-10-20-fork-and-ai-workspace.md and raw/owner-decisions/2026-10-22-checkout-moved-to-github-folder.md with words and a [removed] marker
+
+## [2026-10-22] ingest | Open issues and known defects
+- Disposition: Update
+- Raw: raw/repo-observations/2026-10-22-code-review-live-check.md
+- Updated: operations/open-issues.md (new section "Code review findings", items R1–R11; Repo field adds the reviewed code files)
+- Checked still open: issues 1 (場景前綴 alias), 2 (D4) and 6 (guard_production)

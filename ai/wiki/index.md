@@ -71,7 +71,7 @@ Branches, deployment, exposure, testing, the setup wizard and open issues.
 |---------|---------|---------|
 | [Branches, environments and this fork](operations/branches-and-environments.md) | master/dev/一版, the constant hazard, Vercel projects, this fork's remotes and its upstream merges. | 2026-10-22 |
 | [Deployment and paste order](operations/deployment.md) | Paste and redeploy, deploy order per feature, and how to read what is live. | 2026-10-20 |
-| [Open issues and known defects](operations/open-issues.md) | Open defects, stale safety tooling, unverified behaviour, documentation drift. | 2026-10-20 |
+| [Open issues and known defects](operations/open-issues.md) | Open defects, code review findings, stale safety tooling, unverified behaviour, documentation drift. | 2026-10-22 |
 | [Public exposure and keys](operations/public-exposure.md) | .vercelignore vs .gitignore, keys, unauthenticated branches, evaluator identity. | 2026-10-20 |
 | [Setup wizard (Setup.gs, 新增一場演習)](operations/setup-wizard.md) | Setup.gs: what it writes and in which order, hidden coupling, QR codes, gaps. | 2026-10-20 |
 | [Testing](operations/testing.md) | smoke.sh, the manual test documents, local viewing, untested paths. | 2026-10-20 |
