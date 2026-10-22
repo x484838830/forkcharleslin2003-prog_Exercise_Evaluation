@@ -2,7 +2,7 @@
 
 > Sources: README.md (owner contract); CLAUDE.md backend section; owner guide §11
 > Repo: [README.md](../../../README.md); [CLAUDE.md](../../../CLAUDE.md); [docs/owner-guide-多醫院多演習.md](../../../docs/owner-guide-多醫院多演習.md); [apps-script/ConfigWithSubmit.gs](../../../apps-script/ConfigWithSubmit.gs)
-> Synced: 18c41f4
+> Synced: b1a765f
 > Anchors: 設定試算表填寫說明; 選填欄：場景說明; Config spreadsheet (per-tenant; Config payload; readExerciseInfo_; readItems_; readIndicatorFull_; readIndicatorMap_; readCriteria_; levelHeaderCol_; 11. ⛔ 鐵則
 > Updated: 2026-10-20
 

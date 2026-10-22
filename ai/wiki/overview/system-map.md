@@ -2,7 +2,7 @@
 
 > Sources: upstream build manual §1 (dev @ da22841); CLAUDE.md File roles
 > Repo: [docs/build-from-scratch-從零建置.md](../../../docs/build-from-scratch-從零建置.md); [CLAUDE.md](../../../CLAUDE.md); [apps-script/README.md](../../../apps-script/README.md)
-> Synced: 18c41f4
+> Synced: b1a765f
 > Anchors: 1-1. 元件一覽; 1-2. 誰呼叫誰; 1-3. 兩種部署形態能做什麼; File roles; Which deployment serves the config branch
 > Updated: 2026-10-20
 

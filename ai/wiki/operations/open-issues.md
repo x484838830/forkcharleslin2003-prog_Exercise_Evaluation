@@ -2,7 +2,7 @@
 
 > Sources: CLAUDE.md warnings; handover §5; README.md; git observation of upstream
 > Repo: [CLAUDE.md](../../../CLAUDE.md); [docs/handover-筆電.md](../../../docs/handover-筆電.md); [README.md](../../../README.md); [Analysis.html](../../../Analysis.html)
-> Synced: 18c41f4
+> Synced: b1a765f
 > Anchors: 已知沒做完的小缺口; 還沒驗證; 還沒實作（確認仍壞著）; 一個獨立的小待辦; Figure sizing for print; guard_production; REGISTRY_SCENEPREFIX_ALIASES_
 > Raw: [Upstream branch state](../../raw/repo-observations/2026-10-20-upstream-branch-state.md)
 > Updated: 2026-10-20

@@ -2,7 +2,7 @@
 
 > Sources: Chuang, Ou, Hollnagel, Hou 2020 (ED-RAG, PLoS One); CLAUDE.md; README.md; backend and dashboard code
 > Repo: [CLAUDE.md](../../../CLAUDE.md); [README.md](../../../README.md); [apps-script/ConfigWithSubmit.gs](../../../apps-script/ConfigWithSubmit.gs); [Analysis.html](../../../Analysis.html)
-> Synced: 18c41f4
+> Synced: b1a765f
 > Anchors: normPotential_; buildAnalysis_; ABILITY_NOTES; 優勢前三項／待改善前三項; 設定試算表填寫說明（對應指標
 > Raw: [ED-RAG paper notes](../../raw/domain/2020-09-21-ed-rag-resilience-assessment-grid.md)
 > Updated: 2026-10-20

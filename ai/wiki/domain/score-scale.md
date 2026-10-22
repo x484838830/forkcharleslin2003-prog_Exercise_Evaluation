@@ -2,7 +2,7 @@
 
 > Sources: CLAUDE.md scale section; README.md 評分標準 section; ED-RAG paper (domain context)
 > Repo: [CLAUDE.md](../../../CLAUDE.md); [README.md](../../../README.md); [apps-script/ConfigWithSubmit.gs](../../../apps-script/ConfigWithSubmit.gs); [Start.dc.html](../../../Start.dc.html); [Analysis.html](../../../Analysis.html)
-> Synced: 18c41f4
+> Synced: b1a765f
 > Anchors: The score scale follows 評分標準; 設定試算表填寫說明（評分標準）; 0 分＝不予評分，不算進任何平均; scaleOf_; readCriteria_; scoreScale; ratedOnly_; NOT_RATED_SCORE_
 > Raw: [ED-RAG paper notes](../../raw/domain/2020-09-21-ed-rag-resilience-assessment-grid.md)
 > Updated: 2026-10-20

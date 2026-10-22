@@ -2,9 +2,10 @@
 
 > Sources: CLAUDE.md "Analysis.html UI structure"; Analysis.html code
 > Repo: [CLAUDE.md](../../../CLAUDE.md); [Analysis.html](../../../Analysis.html); [assets/imdl-logo.png](../../../assets/imdl-logo.png)
-> Synced: 18c41f4
-> Anchors: Analysis.html UI structure; Tabs (five buttons); Panels with no tab button; 場次下拉 (`#exPicker`); 場景說明浮層 (`SCENE_GOALS`); loadExercises; syncPickerSelection; renderRadars; renderCoverage; renderS4; renderRanking; renderDetail; renderMethod; renderAbilityRank; renderNotRated; renderIso3D; buildAnonMap; anonLabel; svgRadar; barsSVG; stackedHBarsSVG; radarTable; shortScene; normalisePotentials; ANALYSIS_KEY; RECORD_URL; REPORT_URL
-> Updated: 2026-10-20
+> Synced: b1a765f
+> Anchors: Analysis.html UI structure; Tabs (five buttons); Panels with no tab button; 場次下拉 (`#exPicker`); 場景說明浮層 (`SCENE_GOALS`); orgTitle; displayName; loadExercises; syncPickerSelection; renderRadars; renderCoverage; renderS4; renderRanking; renderDetail; renderMethod; renderAbilityRank; renderNotRated; renderIso3D; buildAnonMap; anonLabel; svgRadar; barsSVG; stackedHBarsSVG; radarTable; shortScene; normalisePotentials; ANALYSIS_KEY; RECORD_URL; REPORT_URL
+> Raw: [Upstream branch state, 2026-10-22](../../raw/repo-observations/2026-10-22-upstream-branch-state.md)
+> Updated: 2026-10-22
 
 ## Overview
 
@@ -26,7 +27,20 @@ With no parameters, the request is byte-identical to the request before multi-te
 
 ## Header
 
-- The title is `meta.displayName || meta.orgName || '演習評核'`. Chrome's "Save as PDF" takes the file name from `document.title`.
+- The title is `orgTitle() + '｜演習評核分析平台'`. `orgTitle()` is `meta.orgName || meta.displayName || '演習評核'`, so the title names the hospital.
+- Two name helpers exist on purpose. Do not merge them.
+
+| Helper | Expression | Answers | Feeds |
+|---|---|---|---|
+| `orgTitle()` | `meta.orgName \|\| meta.displayName \|\| '演習評核'` | which hospital (the 演習資訊 row 機構名稱) | `#orgTitle`, `document.title`, the report cover's `.coverOrg` |
+| `displayName()` | `meta.displayName \|\| meta.orgName \|\| '演習評核'` | which session (the registry column 顯示名稱) | the CSV filename, `docRun.sessionLabel` in the 產生 Google 文件 dialog |
+
+- Each helper falls back to the other when its own field is blank. A config sheet with no 機構名稱 row therefore shows the same title as before the split.
+- The reason for the split: the owner's 顯示名稱 carries version suffixes such as `_R7` and `_V2`. Those suffixes help in a session picker. They are wrong in a page heading.
+- Chrome's "Save as PDF" takes the file name from `document.title`. So two sessions of the same hospital now propose the same PDF file name. The cover still names the session. The CSV filename still uses `displayName()`, so the CSV names the session.
+
+> **Status: Outdated** (2026-10-22)
+> Before commit `b2c0914`, the title was `meta.displayName || meta.orgName || '演習評核'`, and the CSV filename used the same expression. Since `b2c0914`, the title uses `orgTitle()` and only the CSV filename keeps the old expression. Source: `Analysis.html` `orgTitle`, and `CLAUDE.md` "Analysis.html UI structure".
 - The logo is `assets/imdl-logo.png`. Replace the file and keep the path to change it.
 - Four KPI pills sit in the header (`#kpis`): 主題/說明, 評核官人數, 評核總數. 評核總數 counts all three row arrays, 學習 included.
 - The session picker `#exPicker` (see below).

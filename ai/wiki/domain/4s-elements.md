@@ -2,7 +2,7 @@
 
 > Sources: 4-S surge capacity framework (Barbisch and Koenig 2006, as described in Health Security 2023); CLAUDE.md; README.md; backend constants
 > Repo: [CLAUDE.md](../../../CLAUDE.md); [README.md](../../../README.md); [apps-script/ConfigWithSubmit.gs](../../../apps-script/ConfigWithSubmit.gs); [Analysis.html](../../../Analysis.html); [apps-script/Report.gs](../../../apps-script/Report.gs)
-> Synced: 18c41f4
+> Synced: b1a765f
 > Anchors: A 4S cell can name several elements; S4_VALUE_ALIASES_; S4_BLANK_VALUES_; splitS4_; s4CanonicalOf_; s4ListOf; S4_PREFERRED_ORDER
 > Raw: [4-S surge capacity framework notes](../../raw/domain/2023-09-26-4s-surge-capacity-framework.md)
 > Updated: 2026-10-20

@@ -2,7 +2,7 @@
 
 > Sources: CLAUDE.md analysis endpoint section
 > Repo: [CLAUDE.md](../../../CLAUDE.md); [apps-script/ConfigWithSubmit.gs](../../../apps-script/ConfigWithSubmit.gs)
-> Synced: 18c41f4
+> Synced: b1a765f
 > Anchors: Analysis endpoint (`doGet?action=analysis; buildAnalysis_; pickLabel; flattenScores_; summarize_; itemsDepth_
 > Updated: 2026-10-20
 

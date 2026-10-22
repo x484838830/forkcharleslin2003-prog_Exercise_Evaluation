@@ -2,7 +2,7 @@
 
 > Sources: CLAUDE.md exposure sections; .vercelignore; .gitignore; handover §1
 > Repo: [CLAUDE.md](../../../CLAUDE.md); [.vercelignore](../../../.vercelignore); [.gitignore](../../../.gitignore); [docs/handover-筆電.md](../../../docs/handover-筆電.md)
-> Synced: 18c41f4
+> Synced: b1a765f
 > Anchors: Open on `master`: Vercel serves the whole repo; Branch state; The `action=sessions` exposure; 1. ⚠️ 先看這個：沙箱與正式站共用同一把分析金鑰; 7. 工作習慣
 > Updated: 2026-10-20
 

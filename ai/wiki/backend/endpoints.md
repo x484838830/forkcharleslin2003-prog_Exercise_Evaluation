@@ -2,7 +2,7 @@
 
 > Sources: CLAUDE.md backend sections
 > Repo: [CLAUDE.md](../../../CLAUDE.md); [apps-script/ConfigWithSubmit.gs](../../../apps-script/ConfigWithSubmit.gs); [apps-script/Config.gs](../../../apps-script/Config.gs); [Start.dc.html](../../../Start.dc.html); [docs/handover-筆電.md](../../../docs/handover-筆電.md); [apps-script/README.md](../../../apps-script/README.md)
-> Synced: 18c41f4
+> Synced: b1a765f
 > Anchors: Config payload (`doGet` with no `action`); Admin / listing endpoints; The `action=sessions` exposure; Record spreadsheet (per-tenant; File roles; doPost; appendSubmission_; sessionSortable_; submitWindowState_; errorOut_
 > Updated: 2026-10-20
 

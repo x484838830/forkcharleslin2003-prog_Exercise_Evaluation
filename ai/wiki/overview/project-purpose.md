@@ -2,7 +2,7 @@
 
 > Sources: upstream repo documentation (CLAUDE.md, README.md, docs/build-from-scratch-從零建置.md, docs/setup-三支apps-script.md); maintainer request in chat
 > Repo: [CLAUDE.md](../../../CLAUDE.md); [README.md](../../../README.md); [docs/build-from-scratch-從零建置.md](../../../docs/build-from-scratch-從零建置.md); [docs/setup-三支apps-script.md](../../../docs/setup-三支apps-script.md)
-> Synced: 18c41f4
+> Synced: b1a765f
 > Anchors: What this repo is; Report generator (方案B); 1-2. 誰呼叫誰; Panels with no tab button
 > Raw: [Fork setup and the AI knowledge workspace](../../raw/owner-decisions/2026-10-20-fork-and-ai-workspace.md)
 > Updated: 2026-10-20

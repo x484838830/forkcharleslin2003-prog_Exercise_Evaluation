@@ -2,7 +2,7 @@
 
 > Sources: CLAUDE.md branch-state warning and deploy-order bullets; apps-script/README.md; setup manual §4; handover §6
 > Repo: [CLAUDE.md](../../../CLAUDE.md); [apps-script/README.md](../../../apps-script/README.md); [docs/setup-三支apps-script.md](../../../docs/setup-三支apps-script.md); [docs/handover-筆電.md](../../../docs/handover-筆電.md); [docs/build-from-scratch-從零建置.md](../../../docs/build-from-scratch-從零建置.md)
-> Synced: 18c41f4
+> Synced: b1a765f
 > Anchors: Branch state; Backend / data architecture; 4. 重新部署的規矩; 6. 會浪費你時間的坑; 4-2. 順序; 4-6. 回滾
 > Updated: 2026-10-20
 

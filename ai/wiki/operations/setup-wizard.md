@@ -2,7 +2,7 @@
 
 > Sources: CLAUDE.md File roles (Setup.gs, QrLib.html); apps-script/README.md
 > Repo: [CLAUDE.md](../../../CLAUDE.md); [apps-script/Setup.gs](../../../apps-script/Setup.gs); [apps-script/SetupDialog.html](../../../apps-script/SetupDialog.html); [apps-script/QrLib.html](../../../apps-script/QrLib.html); [apps-script/README.md](../../../apps-script/README.md)
-> Synced: 18c41f4
+> Synced: b1a765f
 > Anchors: File roles; Setup.gs; SetupDialog.html; QrLib.html; 正式環境還需要指令碼屬性
 > Updated: 2026-10-20
 

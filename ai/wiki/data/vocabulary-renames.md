@@ -2,7 +2,7 @@
 
 > Sources: CLAUDE.md rename section; README.md rename table
 > Repo: [CLAUDE.md](../../../CLAUDE.md); [README.md](../../../README.md); [apps-script/ConfigWithSubmit.gs](../../../apps-script/ConfigWithSubmit.gs); [apps-script/Config.gs](../../../apps-script/Config.gs); [Analysis.html](../../../Analysis.html)
-> Synced: 18c41f4
+> Synced: b1a765f
 > Anchors: The 2026-10-12 renames; 2026-10-12 的兩個改名; normPotential_; normalisePotentials; RECORD_STAGE_ALIASES_; RECORD_GOAL_ALIASES_; GROUP_HEADER_ALIASES_; GOAL_HEADER_ALIASES_; SNAPSHOT_COLUMNS_
 > Updated: 2026-10-20
 

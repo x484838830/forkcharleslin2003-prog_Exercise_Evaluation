@@ -2,7 +2,7 @@
 
 > Sources: README.md record-sheet section; CLAUDE.md Record spreadsheet section
 > Repo: [README.md](../../../README.md); [CLAUDE.md](../../../CLAUDE.md); [apps-script/ConfigWithSubmit.gs](../../../apps-script/ConfigWithSubmit.gs)
-> Synced: 18c41f4
+> Synced: b1a765f
 > Anchors: 紀錄試算表填寫說明; 新增的選填欄; 關於「觀察紀錄」文字框; Record spreadsheet (per-tenant; appendSubmission_; RECORD_COMMENT_ALIASES_; sanitizeCell_; COMMENT_MAX_LENGTH_
 > Updated: 2026-10-20
 

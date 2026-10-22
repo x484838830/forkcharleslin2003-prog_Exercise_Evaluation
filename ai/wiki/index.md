@@ -51,8 +51,8 @@ The evaluator form and the dashboard.
 
 | Article | Summary | Updated |
 |---------|---------|---------|
-| [Dashboard report view and the Doc button](frontend/dashboard-report-view.md) | The print view (方案A) sections and the 產生 Google 文件 flow (方案B). | 2026-10-20 |
-| [Dashboard (Analysis.html)](frontend/dashboard.md) | Analysis.html: tabs, hidden panels, session picker, anonymity, rules for changes. | 2026-10-20 |
+| [Dashboard report view and the Doc button](frontend/dashboard-report-view.md) | The print view (方案A) sections and the 產生 Google 文件 flow (方案B). | 2026-10-22 |
+| [Dashboard (Analysis.html)](frontend/dashboard.md) | Analysis.html: header name helpers, tabs, hidden panels, session picker, anonymity, rules for changes. | 2026-10-22 |
 | [Evaluator form (Start.dc.html)](frontend/evaluator-form.md) | Start.dc.html: DC template, screens, picker, comments, URL parameters, storage key. | 2026-10-20 |
 
 ## report
@@ -69,7 +69,7 @@ Branches, deployment, exposure, testing, the setup wizard and open issues.
 
 | Article | Summary | Updated |
 |---------|---------|---------|
-| [Branches, environments and this fork](operations/branches-and-environments.md) | master/dev/一版, the constant hazard, Vercel projects, and this fork's remotes. | 2026-10-20 |
+| [Branches, environments and this fork](operations/branches-and-environments.md) | master/dev/一版, the constant hazard, Vercel projects, this fork's remotes and its upstream merges. | 2026-10-22 |
 | [Deployment and paste order](operations/deployment.md) | Paste and redeploy, deploy order per feature, and how to read what is live. | 2026-10-20 |
 | [Open issues and known defects](operations/open-issues.md) | Open defects, stale safety tooling, unverified behaviour, documentation drift. | 2026-10-20 |
 | [Public exposure and keys](operations/public-exposure.md) | .vercelignore vs .gitignore, keys, unauthenticated branches, evaluator identity. | 2026-10-20 |

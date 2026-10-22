@@ -2,7 +2,7 @@
 
 > Sources: CLAUDE.md registry and routing sections; owner guide
 > Repo: [CLAUDE.md](../../../CLAUDE.md); [docs/owner-guide-多醫院多演習.md](../../../docs/owner-guide-多醫院多演習.md); [apps-script/ConfigWithSubmit.gs](../../../apps-script/ConfigWithSubmit.gs); [apps-script/Setup.gs](../../../apps-script/Setup.gs)
-> Synced: 18c41f4
+> Synced: b1a765f
 > Anchors: 租戶註冊表 (`REGISTRY_SPREADSHEET_ID`; readRegistry_; assertRegistrySane_; REGISTRY_SCENEPREFIX_ALIASES_; 2. 欄位一覽; 9. 為什麼某一列會被判「無效」
 > Updated: 2026-10-20
 

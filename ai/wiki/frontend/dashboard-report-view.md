@@ -2,9 +2,10 @@
 
 > Sources: CLAUDE.md report view sections; Analysis.html code
 > Repo: [CLAUDE.md](../../../CLAUDE.md); [Analysis.html](../../../Analysis.html)
-> Synced: 18c41f4
-> Anchors: Report view (`body.reportMode`); 優勢前三項／待改善前三項; Figure sizing for print; enterReport; exitReport; renderReport; renderReportSummary; renderReportQuality; renderReportAppendixC; rankedTop; abilityCells; docBtnBlockReason; docEndpoint; openDocOptions; runDocCheck; docStart; docOnStep; docAbandon; docStatus
-> Updated: 2026-10-20
+> Synced: b1a765f
+> Anchors: Report view (`body.reportMode`); 優勢前三項／待改善前三項; Figure sizing for print; enterReport; exitReport; renderReport; renderReportCover; renderReportSummary; renderReportQuality; renderReportAppendixC; rankedTop; abilityCells; docBtnBlockReason; docEndpoint; openDocOptions; runDocCheck; docStart; docOnStep; docAbandon; docStatus
+> Raw: [Upstream branch state, 2026-10-22](../../raw/repo-observations/2026-10-22-upstream-branch-state.md)
+> Updated: 2026-10-22
 
 ## Overview
 
@@ -17,7 +18,7 @@ The dashboard has two report paths. The button 產生報告 opens a print view o
 
 | Section | Content |
 |---|---|
-| R0 `#reportCover` | cover with editable fields (演習地點, 報告版次, 文件編號, 製表, 審核, 核定). Nothing saves them. 演習地點 is prefilled from `meta.exerciseLocation`. |
+| R0 `#reportCover` | cover. Its top line `.coverOrg` shows `orgTitle()`, the hospital name (see [Dashboard](dashboard.md), Header). It has editable fields (演習地點, 報告版次, 文件編號, 製表, 審核, 核定). Nothing saves them. 演習地點 is prefilled from `meta.exerciseLocation`. |
 | R1 `#reportHint` | print hints, screen only. It holds two checkboxes. |
 | R2 `#reportSummary` | overall mean, three potentials, drill coverage, agreement, within1, not-rated rate, top three and bottom three ability cells |
 | R3–R6 | the panels `#overview`, `#s4`, `#radars`, `#coverage` as they are |

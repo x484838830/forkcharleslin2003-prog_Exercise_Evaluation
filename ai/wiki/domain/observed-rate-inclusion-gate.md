@@ -2,7 +2,7 @@
 
 > Sources: CLAUDE.md inclusion-gate section; README.md (owner explanation with the advisor's example)
 > Repo: [CLAUDE.md](../../../CLAUDE.md); [README.md](../../../README.md); [apps-script/ConfigWithSubmit.gs](../../../apps-script/ConfigWithSubmit.gs); [Analysis.html](../../../Analysis.html); [apps-script/Report.gs](../../../apps-script/Report.gs)
-> Synced: 18c41f4
+> Synced: b1a765f
 > Anchors: 有效觀察涵蓋率 and the 50% inclusion gate; 有效觀察涵蓋率：一題要有一半以上的人; OBSERVED_RATE_MIN_; flattenScores_; inclusionApplies; isExcludedFromScoring; isIncluded_; rankableRows_
 > Updated: 2026-10-20
 

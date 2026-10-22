@@ -2,7 +2,7 @@
 
 > Sources: CLAUDE.md analysis endpoint section; Analysis.html 統計方法 text; R package multilevel documentation of rwg (James, Demaree and Wolf 1984)
 > Repo: [CLAUDE.md](../../../CLAUDE.md); [Analysis.html](../../../Analysis.html); [apps-script/ConfigWithSubmit.gs](../../../apps-script/ConfigWithSubmit.gs); [apps-script/Report.gs](../../../apps-script/Report.gs)
-> Synced: 18c41f4
+> Synced: b1a765f
 > Anchors: Analysis endpoint (`doGet?action=analysis; rwgLocal; rwgStat; rwgScale; renderMethod; verifyIcc_; verifyRwg_; byEvaluator
 > Raw: [rwg notes](../../raw/domain/rwg-within-group-agreement-index.md)
 > Updated: 2026-10-20

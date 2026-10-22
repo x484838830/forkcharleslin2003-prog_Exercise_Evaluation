@@ -2,7 +2,7 @@
 
 > Sources: CLAUDE.md report generator section; Report.gs constants
 > Repo: [CLAUDE.md](../../../CLAUDE.md); [apps-script/Report.gs](../../../apps-script/Report.gs); [apps-script/ReportDialog.html](../../../apps-script/ReportDialog.html); [docs/owner-guide-多醫院多演習.md](../../../docs/owner-guide-多醫院多演習.md)
-> Synced: 18c41f4
+> Synced: b1a765f
 > Anchors: Report generator (方案B); REPORT_BUILD_; REPORT_SECTIONS_; COVER_TOKENS_; COVER_TOKENS_SILENT_; FILL_IMAGE_TOKENS_; FILL_ROW_TOKENS_; scanTemplate_; scanAnchors_; planFillSlots_; chartCapability_; emitChart_; legacyChartBlob_; verifyIcc_; finalizeRun_; leftoverTokens_; plainToken_; SNAPSHOT_COLUMNS_; 14. 產生正式評核報告
 > Updated: 2026-10-20
 

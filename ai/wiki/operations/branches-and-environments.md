@@ -2,10 +2,10 @@
 
 > Sources: CLAUDE.md branch sections; git observation of upstream branches; maintainer decisions in chat
 > Repo: [CLAUDE.md](../../../CLAUDE.md)
-> Synced: 18c41f4
+> Synced: b1a765f
 > Anchors: Branch state; Branch policy
-> Raw: [Upstream branch state](../../raw/repo-observations/2026-10-20-upstream-branch-state.md); [Fork setup and the AI workspace](../../raw/owner-decisions/2026-10-20-fork-and-ai-workspace.md)
-> Updated: 2026-10-20
+> Raw: [Upstream branch state](../../raw/repo-observations/2026-10-20-upstream-branch-state.md); [Upstream branch state, 2026-10-22](../../raw/repo-observations/2026-10-22-upstream-branch-state.md); [Fork setup and the AI workspace](../../raw/owner-decisions/2026-10-20-fork-and-ai-workspace.md)
+> Updated: 2026-10-22
 
 ## Overview
 
@@ -19,6 +19,15 @@ Upstream has two live branches. `master` is production: a push deploys the hospi
 | `dev` | sandbox. Same code, sandbox constants. | `04d51cb`, 3 commits ahead of `master` |
 | `一版` | rollback point before the 2026-10-14 release | `a7d1871` |
 | `chart-handoff` | old work branch, already merged into `master` | `bfee602` |
+
+Branch tips on 2026-10-22 (the next fetch):
+
+| Branch | Tip on 2026-10-22 | Change since 2026-10-20 |
+|---|---|---|
+| `master` | `b2c0914` | 1 new commit: the dashboard header names the hospital, not the session (see [Dashboard](../frontend/dashboard.md), Header) |
+| `dev` | `4560a1e` | 4 commits ahead of `master`, 1 behind. `4560a1e` carries the same change as `b2c0914` as a separate commit. |
+| `一版` | `a7d1871` | none |
+| `chart-handoff` | `bfee602` | none |
 
 History in short:
 
@@ -64,6 +73,12 @@ The Vercel setting that picks the branch is under Settings → Environments → 
 3. Run `python3 ai/scripts/wiki.py status` and follow SCHEMA.md §6.1 to sync the wiki.
 
 Do not merge upstream `dev` into the fork's `master`. `dev` carries sandbox constants.
+
+Merges done so far:
+
+| Date | Upstream commit | Merge commit in the fork | Conflicts |
+|---|---|---|---|
+| 2026-10-22 | `b2c0914` | `b1a765f` | none |
 
 ## See Also
 

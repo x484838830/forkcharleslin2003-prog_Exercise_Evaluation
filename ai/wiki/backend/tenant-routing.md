@@ -2,7 +2,7 @@
 
 > Sources: CLAUDE.md tenant routing section
 > Repo: [CLAUDE.md](../../../CLAUDE.md); [apps-script/ConfigWithSubmit.gs](../../../apps-script/ConfigWithSubmit.gs); [Start.dc.html](../../../Start.dc.html)
-> Synced: 18c41f4
+> Synced: b1a765f
 > Anchors: Tenant routing (方案 A; resolveTenant_; fallbackTenant_; normSlug_; isSpreadsheetId_; tenantSheetConfig_; tenantSheetRecord_; NO_RETRY_ERROR_CODES
 > Updated: 2026-10-20
 

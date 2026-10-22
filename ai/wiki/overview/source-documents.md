@@ -2,7 +2,7 @@
 
 > Sources: the upstream repo's own documents and their stated dates
 > Repo: [CLAUDE.md](../../../CLAUDE.md); [README.md](../../../README.md); [apps-script/README.md](../../../apps-script/README.md); [docs/build-from-scratch-從零建置.md](../../../docs/build-from-scratch-從零建置.md); [docs/handover-筆電.md](../../../docs/handover-筆電.md); [docs/multi-tenant-and-report-plan.md](../../../docs/multi-tenant-and-report-plan.md); [docs/owner-guide-多醫院多演習.md](../../../docs/owner-guide-多醫院多演習.md); [docs/setup-三支apps-script.md](../../../docs/setup-三支apps-script.md); [docs/operator-test-manual.md](../../../docs/operator-test-manual.md); [docs/manual-test-checklist.md](../../../docs/manual-test-checklist.md); [docs/dispatch-e2e-manual.md](../../../docs/dispatch-e2e-manual.md)
-> Synced: 18c41f4
+> Synced: b1a765f
 > Anchors: Where each fact lives; 0-4. 文件與程式不一致時; 實作進度; 線上狀態不等於 repo; 還沒開始：把「產生評核報告」搬到分析平台
 > Updated: 2026-10-20
 

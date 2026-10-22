@@ -12,3 +12,11 @@
 - Raw: raw/domain/rwg-within-group-agreement-index.md
 - Created: 25 articles in 7 topics, glossary.md, index.md
 - Noted drift: CLAUDE.md names anonCode() (code has buildAnonMap/anonLabel); master CLAUDE.md says dev is behind (dev is ahead on 2026-10-20)
+
+## [2026-10-22] sync | Merge of upstream b2c0914 (dashboard header names the hospital)
+- Range: 18c41f4..b1a765f
+- Raw: raw/repo-observations/2026-10-22-upstream-branch-state.md
+- Reviewed: all 25 articles (CLAUDE.md is cited by every article)
+- Updated: frontend/dashboard.md (orgTitle() vs displayName(), the PDF filename cost, Status block for the old title expression)
+- Updated: frontend/dashboard-report-view.md (R0 cover line uses orgTitle())
+- Updated: operations/branches-and-environments.md (branch tips on 2026-10-22, table of upstream merges into the fork)

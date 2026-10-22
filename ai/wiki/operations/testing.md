@@ -2,7 +2,7 @@
 
 > Sources: CLAUDE.md (smoke.sh and checklist entries); scripts/smoke.sh header; docs/manual-test-checklist.md; docs/dispatch-e2e-manual.md; docs/operator-test-manual.md
 > Repo: [CLAUDE.md](../../../CLAUDE.md); [scripts/smoke.sh](../../../scripts/smoke.sh); [docs/manual-test-checklist.md](../../../docs/manual-test-checklist.md); [docs/dispatch-e2e-manual.md](../../../docs/dispatch-e2e-manual.md); [docs/operator-test-manual.md](../../../docs/operator-test-manual.md); [docs/handover-筆電.md](../../../docs/handover-筆電.md)
-> Synced: 18c41f4
+> Synced: b1a765f
 > Anchors: File roles; guard_production; 還沒驗證; 先搞清楚哪些不用人工做; 為什麼下面這些只能人工; 0. 紅線; Running / viewing
 > Updated: 2026-10-20
 

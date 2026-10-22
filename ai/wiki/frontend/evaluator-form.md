@@ -2,7 +2,7 @@
 
 > Sources: CLAUDE.md sections on the mockup, screens and URL parameters; README.md
 > Repo: [CLAUDE.md](../../../CLAUDE.md); [Start.dc.html](../../../Start.dc.html); [support.js](../../../support.js); [README.md](../../../README.md)
-> Synced: 18c41f4
+> Synced: b1a765f
 > Anchors: Editing the mockup; Screens; The picker is an accordion, not a grid; `showCriteria` is per-question, not a screen; Per-question 觀察紀錄 (free text); Identity header and submit gating; URL params and storage key; scenePrefix; renderVals; flattenRows; configRequestUrl; doneStorageKey; adoptDoneItems; scoreScale; submitScores
 > Updated: 2026-10-20
 
