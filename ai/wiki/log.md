@@ -25,3 +25,10 @@
 - Disposition: Update
 - Raw: raw/owner-decisions/2026-10-22-checkout-moved-to-github-folder.md
 - Updated: operations/branches-and-environments.md (location of the local checkout)
+
+## [2026-10-22] ingest | Branches, environments and this fork
+- Disposition: Update
+- Raw: raw/owner-decisions/2026-10-22-relative-paths-only.md
+- Updated: SCHEMA.md (new section 9 Paths; 6.4 step 2), scripts/wiki.py (lint reports absolute paths)
+- Updated: operations/branches-and-environments.md (checkout folder differs per computer)
+- Raw edit under SCHEMA.md §9 rule 7: replaced 3 absolute paths in raw/owner-decisions/2026-10-20-fork-and-ai-workspace.md and raw/owner-decisions/2026-10-22-checkout-moved-to-github-folder.md with words and a [removed] marker

@@ -10,7 +10,7 @@ The maintainer's own words are quoted in Chinese. The English lines record what 
 
 > 這個github，若要修改分析平台，在不影響現有平台的運作下，請問你可以複製一份，在他處修改新增功能嗎？可以的話請幫我複製github，clone到我桌面資料夾中。
 
-Done: the repository charleslin2003-prog/Exercise_Evaluation was cloned to /Users/lhh/Desktop/Exercise_Evaluation.
+Done: the repository charleslin2003-prog/Exercise_Evaluation was cloned to the folder Exercise_Evaluation on the maintainer's Desktop. [removed: absolute path, 2026-10-22, SCHEMA.md §9]
 
 ## Request 2 — fork to the maintainer's account
 

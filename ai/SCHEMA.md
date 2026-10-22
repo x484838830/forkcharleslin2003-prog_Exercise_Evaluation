@@ -162,7 +162,7 @@ For **No material**, keep the raw file, log it, and stop.
 ### 6.4 Lint (health check)
 
 1. Run `python3 ai/scripts/wiki.py lint`.
-2. Fix broken links and index rows.
+2. Fix broken links, index rows and absolute paths (section 9).
 3. Judge each fidelity suspect. Fix the real ones.
 4. Fix glossary hits and STE hard findings in the articles you touch.
 5. Report contradictions, missing cross-links and concepts that need their own article. Do not fix them silently.
@@ -226,3 +226,16 @@ The fork is a public GitHub repository. Everything in ai/ is public.
 1. The code is the final authority. A wiki article is a compiled summary, and a summary can be out of date.
 2. The repo's own `CLAUDE.md` names an owner document for some facts ("Where each fact lives"). The wiki cites that owner. The wiki does not compete with it.
 3. Do not edit `CLAUDE.md`, `README.md` or `docs/` to fix the wiki. Those files belong to the upstream project. Edit them only when the user asks for a change to the project.
+
+## 9. Paths
+
+The maintainer works on more than one computer. The checkout can be in a different folder on each computer. An absolute path works on one computer only.
+
+1. Do not write an absolute path into `ai/` or `.claude/`. Examples: `/Users/<name>/…`, `/home/<name>/…`, `~/…`, `C:\…`.
+2. In a Markdown link, use a path relative to the file that contains the link. Section 4 shows the form.
+3. In prose, in a task note and in a command, use a path relative to the repository root. Example: `ai/scripts/wiki.py`.
+4. Write each command so that it runs from the repository root.
+5. In a script, find files from the location of the script. Do not write a fixed folder into a script. `wiki.py` uses `Path(__file__)`.
+6. To name the location of the checkout itself, use words. Example: "the folder `GitHub` on the Desktop".
+7. If a source contains an absolute path, write `[removed: absolute path]` in the raw file, or use words as in rule 6.
+8. `wiki.py lint` reports each absolute path in `ai/` and `.claude/`. Fix each one before you commit.

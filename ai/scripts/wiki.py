@@ -24,7 +24,7 @@ Commands (run from anywhere):
                          in their Repo files (at Synced) or Raw files.
   terms                  Words that wiki/glossary.md lists as "Avoid".
   ste [ART...]           ASD-STE100 structural lint of article prose.
-  lint                   links + index + evidence + terms + ste summary.
+  lint                   links + index + absolute paths + evidence + terms + ste.
 
 ART is a path to an article (absolute, or relative to the current
 directory, the repo root, or ai/wiki/).
@@ -62,6 +62,15 @@ ce.METADATA_RE = re.compile(
 )
 FIELD_RE = re.compile(r"^>\s*([A-Za-z]+):\s*(.*)$")
 LINK_TARGET_RE = re.compile(r"\[[^\]]*\]\(([^)\s]+)(?:\s+\"[^\"]*\")?\)")
+# SCHEMA.md §9: ai/ and .claude/ hold no absolute path, so the checkout works
+# in any folder on any computer. A prefix needs a real path character after it,
+# so the placeholder examples in SCHEMA.md (`/Users/<name>/…`) do not match.
+ABS_PATH_RE = re.compile(
+    r"(?<![\w.])(?:/Users/|/home/|/private/|/var/folders/|/tmp/|~/|[A-Za-z]:\\)"
+    r"[A-Za-z0-9._-]"
+)
+ABS_PATH_SCAN = (AI, ROOT / ".claude")
+ABS_PATH_SUFFIXES = {".md", ".py", ".json", ".sh", ".txt", ""}
 TABLE_LINK_RE = re.compile(r"\]\(([^)\s#]+\.md)\)")
 
 
@@ -578,6 +587,25 @@ def links_report() -> int:
     return broken
 
 
+def abs_paths_report() -> int:
+    hits = 0
+    for base in ABS_PATH_SCAN:
+        for path in sorted(base.rglob("*")):
+            if not path.is_file() or path.suffix not in ABS_PATH_SUFFIXES:
+                continue
+            if "__pycache__" in path.parts or path.name.startswith("."):
+                continue
+            text = path.read_text(encoding="utf-8", errors="replace")
+            for n, line in enumerate(text.splitlines(), 1):
+                for m in ABS_PATH_RE.finditer(line):
+                    rel = path.relative_to(ROOT).as_posix()
+                    print(f"- {rel}:{n}: absolute path at `{line[m.start():m.start() + 40]}`")
+                    hits += 1
+    if not hits:
+        print("(none)")
+    return hits
+
+
 def index_report(arts: list[Article]) -> int:
     index = WIKI / "index.md"
     problems = 0
@@ -615,6 +643,8 @@ def cmd_lint(_args) -> int:
     b = links_report()
     print("\n## Index consistency\n")
     i = index_report(arts)
+    print("\n## Absolute paths (SCHEMA.md §9)\n")
+    p = abs_paths_report()
     print("\n# Evidence\n")
     s, e = evidence_report(arts)
     print("\n## Glossary avoid-list\n")
@@ -630,7 +660,8 @@ def cmd_lint(_args) -> int:
     if not hard_total:
         print("(none)")
     print(
-        f"\n## Summary\n{b} broken link(s), {i} index problem(s), {s} fidelity suspect(s), "
+        f"\n## Summary\n{b} broken link(s), {i} index problem(s), {p} absolute path(s), "
+        f"{s} fidelity suspect(s), "
         f"{e} evidence error(s), {t} glossary hit(s), {hard_total} STE hard finding(s).\n"
         "Freshness is a separate check: python3 ai/scripts/wiki.py status"
     )
